@@ -18,5 +18,3 @@ jobs:
         run: yarn install
       - name: Build package
         run: yarn build
-      - name: Test
-        run: yarn run test --ci --coverage
